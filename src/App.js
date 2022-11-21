@@ -38,7 +38,6 @@ export default function App() {
     >
       <Layer>
         <Group>
-          <Image x={100} y={10} image={image} />
           <Text text={text} x={10} y={50} fontSize={20} />
         </Group>
         <Line stroke={"green"} strokeWidth={2} points={[171, 265, 265, 265]} />
